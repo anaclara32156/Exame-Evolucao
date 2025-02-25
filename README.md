@@ -12,7 +12,9 @@ O **Exame Evolução** é um sistema web que permite a profissionais da saúde c
 ## 📌 Utilização  
 Aqui estão alguns vídeos demonstrando o uso do sistema:  
 
-🎥 **Cadastro de Exames**  
+🎥 **Cadastro de Usuario**  
+
+![Demo]([caminho/do/video.gif](https://github.com/anaclara32156/Exame-Evolucao/blob/4956110150e55e31d156f6070ae38c15bf53d783/ExameEvolucao/codigo/assets/img/CadastroUsuario.gif))
 
 🎥 **Gerenciamento de Usuários**   
 
