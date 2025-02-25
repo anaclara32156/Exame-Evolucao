@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ecf0f1;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-center {
+    text-align: center;
+    margin-top: 20px; 
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    color: #014f86;
+}
+.nome {
+    display: flex;
+    justify-content: center; 
+    align-items: center;        
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 65%;
+    background-color: #ecf0f1;
+
+}
+.content {
+    background-color: #ecf0f1;
+    border-radius: 15px;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.table {
+    background-color: #ecf0f1;
+    border-radius: 15px;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5%;
+}
+tr {
+    background-color: #96bfe3b8;
+}
+
+/* ESTILO GERAL */
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-sair button {
+    padding: 5px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #014F86;
+}
+#addMarcador {
+    padding: 5px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #014F86;
+    border: 1px solid #014f86;
+}
+.btn {
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #F4F4F4;
+    background-color: #014f86 ;
+    border: 10px solid #014f86;
+    font-size: 10px;
+    padding: 10px 50px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+#btn-acoes-editar {
+    padding: 5px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: green;
+}
+#btn-acoes-excluir {
+    padding: 5px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: red;
+}
+#btn-acoes-exames {
+    padding: 5px 25px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 1px solid #96bfe3b8;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #f4f4f4;
+    background-color:#96bfe3b8 ;
+}
+.btn-second {
+    background-color: #014F86;
+    border: 1px solid #014f86;
+    transition: background-color .5s;
+    margin-top: 1rem;
+}
+#btn-second-salvar {
+    padding: 10px 60px;
+    background-color: #014F86;
+    border: 1px solid #014f86;
+    transition: background-color .5s;
+    margin-bottom: 1rem;
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid #014F86;
+    color: #014F86;
+}
+#btn-second-salvar:hover {
+    background-color: #fff;
+    border: 1px solid #014F86;
+    color: #014F86;
+}
+#btn-right{
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #014f86;
+    border-radius: 15px;
+    color: #014F86;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color .5s;
+    margin-right: 20px;
+    margin-top: 35px;
+
+}
+#btn-left {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #014f86;
+    border-radius: 15px;
+    color: #014F86;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color .5s;
+    margin-left: 20px;
+}
+p{
+    position: absolute;
+    color: #0a0a0a;
+    font-size: 13px;
+    align-items: right;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+p1{
+    position: absolute;
+    color: #0a0a0a;
+    font-size: 13px;
+    align-items: left;
+    left: 0;
+    bottom: 0;
+    margin-left: 15px;
+    margin-bottom:60px;
+}
+
+/* Ajuste dos botões */
+.btn-custom {
+    width: 130px;
+    margin: 0 5px; 
+}
+.legenda-cores {
+    padding-top: 10px;
+    font-size: 14px;
+}
+.cor-legenda {
+    display: inline-block;
+    width: 30px;  
+    height: 30px; 
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid #ccc;   
+}
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO MENU */
+nav {
+    padding: 10px 20px;
+    background-color: #014F86; 
+}
+.navbar-brand .logoCabecalho {
+    width: 100px; 
+    height: auto;
+}
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+.text-white {
+    color: #fff; 
+}
+.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    margin: 0 15px;
+}
+.btn-sair {
+    margin-left: 10px;
+}
+header a {
+    color: #fff2f2;
+    text-decoration: none;
+}
+img {
+    width: 100px; 
+    height: 100px;
+}
+header nav.menu-desktop a:hover {
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO FORMULARIO */
+.content-formulario {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column; 
+    box-shadow: 5px 5px 10px rgba(122, 120, 120, 0.5);
+}
+.content-formulario-cliente {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(122, 120, 120, 0.5);
+}
+.container-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    background-color: #ecf0f1;
+
+}
+.formulario {
+    margin-top: 5%;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}

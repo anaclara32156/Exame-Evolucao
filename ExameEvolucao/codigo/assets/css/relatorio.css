@@ -1,0 +1,45 @@
+.titulo{
+	color: #014F86;	
+	text-align: center;
+}
+
+h2{
+    color: rgb(43, 41, 41);
+    font-size: 15px;
+}
+
+#area01{
+	float: left;
+	width: 10%;	
+	height: 5%;
+}
+
+#area02{
+	float: left;
+	width: 80%;
+}
+
+#area03{
+	clear: both;
+	width: 100%;
+}
+
+#area04{
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+.figura{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.tabela{
+	color: blue; 
+    width: 100%;	
+}
+
+.tabela th{
+	text-align: left;
+}
+
