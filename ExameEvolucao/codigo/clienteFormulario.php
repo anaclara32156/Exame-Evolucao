@@ -45,11 +45,11 @@ if(isset($_GET['id'])){
 </h1>
 
 
-    <div class="container-cliente">
+    <div class="container">
         <hr/>    
-        <div class="content-formulario-cliente">
             <div class="formulario">            
                 <form id="formulario" action="clienteSalvar.php" method="post">
+                <div class="content-formulario">
                     <!-- Campo oculto (invisível) -->
 					<input type="hidden" id="id" name="id" value="<?php echo $id; ?>">
                     
@@ -60,6 +60,7 @@ if(isset($_GET['id'])){
                             <label class="error" for="nome"></label>
                         </div>    
                     </div>    
+                    
                     <div class="row form-group">
                         <div class="col-md-4">
                             <label for="dataNascimento">Data de nascimento*</label>  
@@ -93,14 +94,15 @@ if(isset($_GET['id'])){
                             <input class="form-control" id="tel" name="tel" value="<?php echo htmlspecialchars($tel); ?>" type="text">
                             <label class="error" for="tel"></label>                    
                         </div>
-                     </div>
-                        <div class="row form-group">
-                          <div class="col-md-12 text-center">
-                          <button type="submit" id="btn-second-salvar" class="btn btn-second">Salvar</button>                                            
-                           </div>                 
-                    </div>     
-                </form>        
-            </div>    
+                     </div>               
+                </div>    
+                    </div>
+                    <div class="row form-group">
+                      <div class="col-md-12 text-center">
+                         <button type="submit" id="btn-second-salvar" class="btn btn-second">Salvar</button>
+                      </div>
+                    </div>
+                </form>           
         </div>
     </div>      
     <script type="text/javascript" src="assets/js/jquery.js"></script>
