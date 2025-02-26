@@ -26,6 +26,12 @@ https://github.com/user-attachments/assets/22d15a98-36d1-412c-beed-d6e0d190e795
 
 https://github.com/user-attachments/assets/2502adfd-461e-497f-a228-962e98dbde67
 
+🎥 **Gerenciar Exame**
+
+https://github.com/user-attachments/assets/81b60b6c-018d-4ab0-ac74-a2450f82224d
+
+
+
 
 
 
