@@ -1,3 +1,6 @@
+<?php 
+$id = 0;
+?>	
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -18,6 +21,7 @@
             <div class="second-column">
                 <h2 class="title title-second">Cadastre-se</h2>
                 <form id="formulario" class="form" action="usuarioSalvar.php" method="post" enctype="multipart/form-data">
+                <input type="hidden" id="id" name="id" value="<?= $id; ?>">
                     <p class="description description-second">Nome</p>
                     <label class="label-input" for="nome">
                         <i class="far fa-user icon-modify"></i>
