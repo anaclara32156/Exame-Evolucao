@@ -30,6 +30,12 @@ https://github.com/user-attachments/assets/2502adfd-461e-497f-a228-962e98dbde67
 
 https://github.com/user-attachments/assets/81b60b6c-018d-4ab0-ac74-a2450f82224d
 
+🎥 **Cadastrar Marcador**
+
+https://github.com/user-attachments/assets/55073fdb-722a-4952-9326-297deace0508
+
+
+
 
 
 
