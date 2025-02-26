@@ -32,6 +32,10 @@ https://github.com/user-attachments/assets/81b60b6c-018d-4ab0-ac74-a2450f82224d
 
 https://github.com/user-attachments/assets/55073fdb-722a-4952-9326-297deace0508
 
+🎥 **Gerar Relatório**
+
+https://github.com/user-attachments/assets/19ca16ea-f004-487d-89b7-90a4310a0ca3
+
 🎥 **Comparar Exames**
 
 https://github.com/user-attachments/assets/47115d02-cd34-4a5c-953f-7518b50e55bb
